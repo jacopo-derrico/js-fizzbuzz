@@ -5,3 +5,15 @@
 //5 - BONUS use append() to create container with boxes w/ numbers inside
 //6 - BONUS add differents styles to every box
 
+ for (let i = 1; i <= 100; i++) {
+    // console.log(i)
+    if ((i % 3) === 0) {
+        console.log("Fizz")
+    } else if ((i % 5) === 0) {
+        console.log("Buzz")
+    } else if ((i % 3 && i % 5) === 0) {
+        console.log("FizzBuzz")
+    } else {
+        console.log(i)
+    }
+ }
